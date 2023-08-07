@@ -1,0 +1,57 @@
+/* Обшие стили */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color:#00204A;
+    --bg-secondaty:#f4d059;
+    --text-color:#00204A;
+}
+
+html, body {
+    height: 100%
+}
+
+/* body{
+    min-width: 320px;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+} */
+
+a{
+    text-decoration: underline;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1 1 auto; /* flex-grow (сколько свободного пространства)  flex-shrink(фактор сжатия   flex basis(задает базовый размер)*/
+}
+
+.header-logo{
+    max-width: 301px;
+    height: 61px;
+    padding-top: 17.11px;
+    padding-left: 90px;
+/*     margin: auto; */
+margin-bottom: 12px;
+}
+
+
+
+.navbar-nav .nav-item{
+    margin-right: 28px;
+}
+
+.swiper {
+    background-color: #f4d059;
+    width: 75%;
+    height: 300px;
+  }
