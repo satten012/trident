@@ -7,6 +7,9 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/style/style.css">
 </head>
@@ -16,23 +19,25 @@
         <div class="container-fluid">
             <div class="row">
 
-                <div class="col-9 col-lg-3 d-sm-block">
+                <div
+                    class="col-9 col-lg-3 d-flex justify-content-start justify-content-lg-end align-items-center header-block-left">
                     <div class="header-logo">
-                        <img class="w-100 h-100" src="assets/img/logo.png" alt="logo">
+                        <img class="w-100 h-100" src="assets/img/Group 25733 (1).png" alt="logo">
                     </div>
                 </div>
 
-                <div class="col-3 col-lg-9" id="header-nav">
-                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                        <div class="container-fluid">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <div class="col-3 col-lg-9 d-flex header-block-right align-items-center" id="header-nav">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary h-100 ">
+                        <div class="container-fluid d-flex justify-content-end">
+                            <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
                                 aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon">---</span>
+                                <button class="navbar-toggler-icon d-block d-lg-none " type="button"
+                                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                    aria-controls="offcanvasRight"> <i class="fa-solid fa-bars"></i>
+                                </button>
                             </button>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right
-                                offcanvas</button>
+
 
                             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                                 <a class="navbar-brand" href="#">Hidden brand</a>
@@ -66,8 +71,24 @@
                                 aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                            ...
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+
                         </div>
+
                     </div>
 
 
