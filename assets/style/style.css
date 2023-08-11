@@ -51,16 +51,9 @@ header {
     height: 25px;
 }
 
-
 .navbar-nav .nav-item{
     margin-right: 28px;
 }
-
-.swiper {
-    background-color: #f4d059;
-    width: 75%;
-    height: 300px;
-  }
 
 .navbar-toggler-icon {
     border: none;
@@ -83,4 +76,43 @@ header {
     background-color: var(--bg-secondaty) ;
     text-align: center;
     text-transform: uppercase;
+}
+
+.slider-content {
+    padding: 0;
+}
+
+.swiper {
+    background-color: #f4d059;
+    width: 100%;
+    height: 212px;
+  }
+
+.swiper-button-next, 
+.swiper-button-prev{
+    width: 30px;
+    height: 28px;
+    background: #f4d059;
+    right: 0;
+}
+
+.swiper-button-next:after, 
+.swiper-rtl {
+    content: 'next';
+    font-size: 8px;
+    font-weight: 600;
+    color: black;
+}
+
+.swiper-button-prev:after, .swiper-button-prev{
+    content: 'prev';
+    font-size: 8px;
+    font-weight: 600;
+    color: black;
+    left: 0; 
+}
+
+.slider-description{
+ background-color: var(--bg-color);
+ height: 114px;   
 }
