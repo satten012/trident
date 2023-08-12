@@ -12,14 +12,9 @@
 }
 
 html, body {
-    height: 100%
+    height: 100%;
+    font-family: 'Lato';
 }
-
-/* body{
-    min-width: 320px;
-    font-family: 'PT Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-} */
 
 a{
     text-decoration: underline;
@@ -114,5 +109,41 @@ header {
 
 .slider-description{
  background-color: var(--bg-color);
- height: 114px;   
+ height: 114px;
+ color: #fff;   
+}
+
+.slider-description div {
+    width: 330px;
+}
+
+/* main */
+
+.main .container-fluid{
+    padding-left: 8px;
+}
+
+.main h2 {
+    font-size: 26px;
+    margin-top: 24px;
+    font-weight: 300;
+    line-height: 45px;
+    height: 45px;
+color: var(--text-color);
+}
+
+.main-btns button {
+    height: 46px;
+    width: 146px;
+    border: none;
+    background: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30.3px;
+    text-align: center;
+}
+
+.main-btns button:nth-child(1){
+    margin-left: 2px;
+    background: var(--bg-secondaty);
 }
