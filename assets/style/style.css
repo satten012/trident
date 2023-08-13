@@ -75,6 +75,7 @@ header {
 
 .slider-content {
     padding: 0;
+    margin-top: -1px;
 }
 
 .swiper {
@@ -115,6 +116,10 @@ header {
 
 .slider-description div {
     width: 330px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+    margin-right: 13px;
 }
 
 /* main */
@@ -129,7 +134,7 @@ header {
     font-weight: 300;
     line-height: 45px;
     height: 45px;
-color: var(--text-color);
+    color: var(--text-color);
 }
 
 .main-btns button {
@@ -146,4 +151,36 @@ color: var(--text-color);
 .main-btns button:nth-child(1){
     margin-left: 2px;
     background: var(--bg-secondaty);
+    margin-right: 7.5px;
 }
+
+.main-btns button:nth-child(2){
+    border: 1px solid var(--bg-secondaty);
+    border-right: 9px solid var(--bg-secondaty);
+}
+
+.main-catalogRoom h4, 
+.main-catalogSalon h4,
+.main-catalogWorkspace h4 {
+    height: 44px;
+    line-height: 40px;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 5px;
+    color: var(--text-color);
+    margin-bottom: 0;
+}
+
+.main-catalogRoom span, 
+.main-catalogSalon span,
+.main-catalogWorkspace span {
+    font-weight: 300;
+}
+
+.main-catalogRoom, 
+.main-catalogSalon,
+.main-catalogWorkspace{
+    margin-bottom: 40px;
+} 
+
+/* interior-design */
