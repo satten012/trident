@@ -184,3 +184,84 @@ header {
 } 
 
 /* interior-design */
+.container-fluidImg-bg{
+    width: 317px;
+}
+
+.interior-desigImg {
+    width: 326px;
+    height: 256px;
+    top: 22px;
+    left: 37px;
+}
+
+.interior-designContent {
+    background-color: var(--bg-color);
+    padding: 0;
+    width: 93.5%;
+    margin: auto;
+}
+
+.interior-designContent-Title{
+    color: #fff;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28.4px;
+    width: 273px;
+    padding-top: 108px;
+    margin: auto;
+    margin-bottom: 17px;
+}
+
+.interior-designContent-paragraph{
+    width: 273px;
+    height: 58px;
+    margin: auto;
+    color:#ffffff82;
+    font-size: 14px;
+    line-height: 19.2px;
+    font-weight: 275;
+}
+
+.interior-designBtn{
+    background-color: var(--bg-color);
+    padding: 0;
+    width: 93.5%;
+    margin: auto;
+    padding-top: 37px;
+}
+
+.interior-designBtn div {
+    width: 155px;
+    height: 52px;
+    background-color: var(--bg-secondaty);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 52px;
+}
+
+/* characteristics */
+.characteristics-title{
+    padding-top: 48px;
+    margin-bottom: 45px;
+    font-size: 26px;
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+/* .a{
+    background-color: red;
+}
+
+.b{
+    background-color: blue;
+}
+
+.c{
+    background-color: green;
+}
+
+.d{
+    background-color: #f4d059;
+} */
