@@ -250,18 +250,55 @@ header {
     color: var(--text-color);
 }
 
-/* .a{
-    background-color: red;
+.characteristics-description > div:nth-child(1){
+    margin-right: 20px;
 }
 
-.b{
-    background-color: blue;
+.characteristics-description > div:nth-child(2) div {
+    color: var(--text-color);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
 }
 
-.c{
-    background-color: green;
+.characteristics-description > div:nth-child(2) p {
+    margin-top: 13px;
+    font-size: 14px;
+    line-height: 22.48px;
+    font-weight: 300;
+    font-style: normal;
+    max-width: 210px;
+
 }
 
-.d{
-    background-color: #f4d059;
-} */
+/* Catalog */
+.catalog{
+    margin-top: 50px;
+}
+.catalog-description{
+    width: 355.43px;
+    height: 543px;
+    border-radius: 4px;
+    border: 1px solid #F5F5F5;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%), url(<path-to-image>), lightgray 0px -51.365px / 100% 126.064% no-repeat;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    margin-bottom: 93px;
+}
+
+.catalog-descriptionTitle{
+    font-weight: 300;
+    font-size: 26px;
+    width: 325px;
+
+    margin: 24px auto;
+}
+
+.catalog-descriptionImg img:nth-child(2){
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    top: 143px;
+}
