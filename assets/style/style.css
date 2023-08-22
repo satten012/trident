@@ -302,3 +302,56 @@ header {
     cursor: pointer;
     top: 143px;
 }
+
+.catalog-description p {
+    width: 312.32px;
+    height: 45px;
+    margin: auto;
+    margin-bottom: 24px;
+    color: var(--text-color);
+    font-weight: 300;
+    text-align: center;
+}
+
+.catalog-descriptionImg > img:nth-child(1) {
+    min-width: 338px;
+    margin: auto;
+    display: inherit; 
+}
+
+.catalog-descriptionBtn {
+    height: 52.22px;
+    border: none;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30.286px;
+    background-color: var(--text-color);
+    width: 155px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+/* headline */
+
+.headline {
+    margin-top: 45px;
+}
+
+.headline-title{
+    color: var(--text-color);
+   line-height: 45px; 
+   font-size: 36px;
+   font-weight: 300;
+}
+
+.headline-content p:nth-child(1) {
+    font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 45px; 
+}
